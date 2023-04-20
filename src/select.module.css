@@ -64,3 +64,17 @@
 .options.show {
     display: block;
 }
+
+.option {
+    padding: .25em .5 em;
+    cursor: pointer;
+}
+
+.option.selected {
+    background-color: hsl(200, 100%, 70%);
+}
+
+.option.highlighted {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+}
